@@ -1,0 +1,15 @@
+ #include<stdio.h>
+ int main()
+ {
+ int n, k, r;
+	   scanf ("%d", &n);
+	   r = n % 10;
+	   if (r != 0)
+	   {
+	   k = 10 - r;
+	   n = n + k;
+	       
+	   }
+	   printf ("%d", n);
+   return 0;
+ }
